@@ -1,42 +1,35 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+/* * {
+    outline: 1px red solid;
+} */
+:root {
+    --main-font-color: rgb(14, 26, 32);
+    --second-font-color: rgb(197, 212, 219);
+    --main-bg-color: rgb(219, 230, 242);
+    --second-bg-color:rgb(0, 0, 0);
+    --second-bg-color-op: rgba(0, 0, 0, 0.5);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-font-color);
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgb(221, 221, 221);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+header {
+    background-color: var(--main-bg-color);
 }
-
-.card {
-  padding: 2em;
+.nav,
+.navbar {
+    background-color: #fff;
+    vertical-align: top;
 }
-
-.read-the-docs {
-  color: #888;
+.navbar-brand > img {
+    width: 100%;
+    max-width: 50px;
+}
+.minicarrito {
+    min-width: 200px;
 }
