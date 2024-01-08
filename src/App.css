@@ -33,3 +33,8 @@ header {
 .minicarrito {
     min-width: 200px;
 }
+.hero {
+
+    margin: auto;
+    padding-top: 72px;
+}
