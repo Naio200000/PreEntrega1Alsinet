@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar'
+import MobileWidgets from './components/MobileWidget'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <header className='header'>
         <Navbar />
+        <MobileWidgets />
       </header>
     </>
   )
