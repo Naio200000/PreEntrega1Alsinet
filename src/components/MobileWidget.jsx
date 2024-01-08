@@ -4,12 +4,12 @@ import CartWidget from './CartWidget'
 const MobileWidgets = () => {
 
     return (
-        <nav class="fixed-bottom navbar d-block d-lg-none">
-            <div class="minicarrito row align-items-center my-3">
-                <div class="col">
+        <nav className="fixed-bottom navbar d-block d-lg-none">
+            <div className="minicarrito row align-items-center my-3">
+                <div className="col">
                     <PriceWidget />
                 </div>
-                <div class="col">
+                <div className="col">
                     <CartWidget />
                 </div>
             </div>

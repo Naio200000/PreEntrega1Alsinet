@@ -18,3 +18,7 @@ body {
     margin: auto;
     background-color: rgb(221, 221, 221);
 }
+main {
+    background-color: #fff;
+    color: var(--second-font-color);
+}
