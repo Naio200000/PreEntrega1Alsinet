@@ -1,4 +1,6 @@
-import Logo from './components/Logo'
+import Logo from './Logo'
+import Titulo from './Titulo'
+import Nav from './Nav'
 
 const Navbar = () => {
 
@@ -7,7 +9,7 @@ const Navbar = () => {
             <nav class="navbar navbar-expand-md fixed-top container-fluid x-auto ">
                 <div class="nav container align-items-center">
                     <Logo />
-                    <h1 class="titulo text-uppercase text-center">Komei Juku</h1>
+                    <Titulo titulo={'Komei Juku'}/>
                     <button class="navbar-toggler ms-auto m-2" type="button" data-bs-toggle="collapse" data-bs-target="#ContenidoSoporteBarranNav" aria-controls="ContenidoSoporteBarranNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
@@ -29,17 +31,7 @@ const Navbar = () => {
                     </div>
                     </div>
                     <div class="collapse navbar-collapse ms-5" id="ContenidoSoporteBarranNav">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                        <a class="nav-link active text-center text-sm-end" aria-current="page" href="#nosotros">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link active text-center text-sm-end" aria-current="page" href="#tienda">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link active text-center text-sm-end" aria-current="page" href="#dojos">Dojos</a>
-                        </li>
-                    </ul>
+                        <Nav />
                     </div>
                 </div>
             </nav>
