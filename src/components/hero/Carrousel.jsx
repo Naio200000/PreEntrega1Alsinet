@@ -1,6 +1,6 @@
-import imagen1 from '../assets/img/hero/komei-juku-hero-2.webp'
-import imagen2 from '../assets/img/hero/komei-juku-hero-3.webp'
-import imagen3 from '../assets/img/hero/komei-juku-hero-4.webp'
+import imagen1 from '../../assets/img/hero/komei-juku-hero-2.webp'
+import imagen2 from '../../assets/img/hero/komei-juku-hero-3.webp'
+import imagen3 from '../../assets/img/hero/komei-juku-hero-4.webp'
 import CarrouselImgl from './CarrouselImg'
 
 const Carrousel = () => {

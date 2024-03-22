@@ -1,4 +1,4 @@
-import komeiLogo from '../assets/img/logo/komei_juku.webp'
+import komeiLogo from '../../assets/img/logo/komei_juku.webp'
 
 const Logo = () => {
 

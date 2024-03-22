@@ -1,4 +1,4 @@
-import Logo from './Logo'
+import Logo from '../misc/Logo'
 import Titulo from './Titulo'
 import Nav from './Nav'
 import PriceWidget from './PriceWidget'
